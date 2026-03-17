@@ -38,7 +38,7 @@ You can run the code and input your own match situation:
 
 The model will predict the probability of winning.
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 ### 1. Clone the repository
 
@@ -77,5 +77,5 @@ Feel free to fork the repo and experiment with your own improvements.
 
 ---
 
-⭐ If you found this interesting, consider giving it a star!
+If you found this interesting, consider giving it a star!
 
