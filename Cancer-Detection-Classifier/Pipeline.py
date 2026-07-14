@@ -157,7 +157,7 @@ class Pipeline:
             c=y, s=20, alpha=0.7
         )
 
-        ax[0].set_title("Breast Cancer Dataset after PCA")
+        ax[0].set_title("Breast Cancer Dataset after PCA (30->2 features)")
         ax[0].set_xlabel("Principal Component 1")
         ax[0].set_ylabel("Principal Component 2")
         ax[0].grid(True)
@@ -187,7 +187,7 @@ class Pipeline:
                 facecolors="none", edgecolors="black", linewidths=2, label="Support Vectors"
             )
 
-        ax[1].set_title("Linear SVM on PCA Features")
+        ax[1].set_title("Linear SVM on PCA Features (ZOOMED IN)")
         ax[1].set_xlabel("Principal Component 1")
         ax[1].set_ylabel("Principal Component 2")
 
@@ -207,12 +207,6 @@ class Pipeline:
         print("\n========= STANDARD SCALER =========")
         print("Original Shape:", X.shape)
         print("Scaled Shape:", X_scaled.shape)
-
-        print("\nFeature Means (first 5):")
-        print(self.std.mean[:5])
-
-        print("\nFeature Standard Deviations (first 5):")
-        print(self.std.std[:5])
         time.sleep(2)
 
         print("\n========== PCA SUMMARY ==========")

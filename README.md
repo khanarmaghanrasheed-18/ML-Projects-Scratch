@@ -26,19 +26,12 @@ My focus is on:
 ML-Projects-Scratch/
 │
 ├── Cricket-Win-Probability/
-│   ├── datasets/
-│   ├── notebooks/
-│   ├── src/
+│   ├── matches.csv
+│   ├── probability_meter.py
 │   └── README.md
 │
-├── SVM-From-Scratch/
-│   ├── datasets/
-│   ├── src/
-│   └── README.md
-│
-├── PCA-From-Scratch/
-│   ├── datasets/
-│   ├── src/
+├── Cancer-Detection-Classifier/
+│   ├── Pipeline.py
 │   └── README.md
 │
 └── README.md
@@ -53,8 +46,7 @@ Each project contains its own documentation, implementation details, dataset inf
 | Project | Description | Status |
 |----------|-------------|--------|
 | 🏏 Cricket Win Probability | Predicts the probability of winning an IPL match using machine learning. | ✅ Completed |
-| 📈 Principal Component Analysis (PCA) | PCA implemented from scratch using covariance matrices and eigen decomposition. | ✅ Completed |
-| 📉 Support Vector Machine (SVM) | Linear SVM implemented from scratch using Hinge Loss and Gradient Descent. | ✅ Completed |
+| Cancer Detection Classifier | PCA and SVM implemented from scratch using covariance matrices and Hinge Loss. | ✅ Completed |
 
 ---
 
